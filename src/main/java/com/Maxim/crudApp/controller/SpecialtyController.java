@@ -1,10 +1,10 @@
 
-package com.Maxim.crud_app.controller;
+package com.Maxim.crudApp.controller;
 
 
-import com.Maxim.crud_app.model.Specialty;
-import com.Maxim.crud_app.repository.gson.GsonSpecialtyRepositoryImpl;
-import com.Maxim.crud_app.view.SpecialtyView;
+import com.Maxim.crudApp.model.Specialty;
+import com.Maxim.crudApp.repository.gson.GsonSpecialtyRepositoryImpl;
+import com.Maxim.crudApp.view.SpecialtyView;
 
 import java.util.HashMap;
 

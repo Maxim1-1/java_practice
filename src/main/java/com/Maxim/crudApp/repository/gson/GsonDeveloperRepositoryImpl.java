@@ -1,8 +1,8 @@
-package com.Maxim.crud_app.repository.gson;
+package com.Maxim.crudApp.repository.gson;
 
-import com.Maxim.crud_app.base.Status;
-import com.Maxim.crud_app.model.Developer;
-import com.Maxim.crud_app.repository.DeveloperRepository;
+import com.Maxim.crudApp.base.Status;
+import com.Maxim.crudApp.model.Developer;
+import com.Maxim.crudApp.repository.DeveloperRepository;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GsonDeveloperRepositoryImpl implements DeveloperRepository {
-    String developerRepositoryPath = "src/main/java/com/Maxim/crud_app/data" + File.separator + "developer.json";
+    String developerRepositoryPath = "src/main/java/com/Maxim/crudApp/data" + File.separator + "developer.json";
 
 
     @Override

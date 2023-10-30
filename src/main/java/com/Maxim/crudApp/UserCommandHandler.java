@@ -1,8 +1,8 @@
-package com.Maxim.crud_app;
+package com.Maxim.crudApp;
 
-import com.Maxim.crud_app.controller.DeveloperController;
-import com.Maxim.crud_app.controller.SkillsController;
-import com.Maxim.crud_app.controller.SpecialtyController;
+import com.Maxim.crudApp.controller.DeveloperController;
+import com.Maxim.crudApp.controller.SkillsController;
+import com.Maxim.crudApp.controller.SpecialtyController;
 
 import java.util.Scanner;
 

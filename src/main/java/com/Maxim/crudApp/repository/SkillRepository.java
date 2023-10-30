@@ -1,6 +1,6 @@
-package com.Maxim.crud_app.repository;
+package com.Maxim.crudApp.repository;
 
-import com.Maxim.crud_app.model.Skill;
+import com.Maxim.crudApp.model.Skill;
 
 
 public interface SkillRepository extends GenericRepository<Skill,Integer> {

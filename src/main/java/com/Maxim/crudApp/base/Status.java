@@ -1,4 +1,4 @@
-package com.Maxim.crud_app.base;
+package com.Maxim.crudApp.base;
 
 public enum Status {
     ACTIVE, DELETED

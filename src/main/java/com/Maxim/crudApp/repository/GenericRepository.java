@@ -1,4 +1,4 @@
-package com.Maxim.crud_app.repository;
+package com.Maxim.crudApp.repository;
 
 import com.google.gson.Gson;
 

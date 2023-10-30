@@ -1,6 +1,6 @@
-package com.Maxim.crud_app.repository;
+package com.Maxim.crudApp.repository;
 
-import com.Maxim.crud_app.model.Specialty;
+import com.Maxim.crudApp.model.Specialty;
 
 
 public interface SpecialtyRepository extends GenericRepository<Specialty,Integer> {

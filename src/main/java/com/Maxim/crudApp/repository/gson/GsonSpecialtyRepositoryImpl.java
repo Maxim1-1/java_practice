@@ -1,8 +1,8 @@
-package com.Maxim.crud_app.repository.gson;
+package com.Maxim.crudApp.repository.gson;
 
-import com.Maxim.crud_app.base.Status;
-import com.Maxim.crud_app.model.Specialty;
-import com.Maxim.crud_app.repository.SpecialtyRepository;
+import com.Maxim.crudApp.base.Status;
+import com.Maxim.crudApp.model.Specialty;
+import com.Maxim.crudApp.repository.SpecialtyRepository;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
@@ -13,7 +13,7 @@ import java.util.List;
 
 public class GsonSpecialtyRepositoryImpl implements SpecialtyRepository {
 
-    String specialtyRepositoryPath = "src/main/java/com/Maxim/crud_app/data" + File.separator + "specialty.json";
+    String specialtyRepositoryPath = "src/main/java/com/Maxim/crudApp/data" + File.separator + "specialty.json";
 
 
     @Override

@@ -1,9 +1,9 @@
-package com.Maxim.crud_app.controller;
+package com.Maxim.crudApp.controller;
 
 
-import com.Maxim.crud_app.model.Skill;
-import com.Maxim.crud_app.repository.gson.GsonSkillRepositoryImpl;
-import com.Maxim.crud_app.view.SkillsView;
+import com.Maxim.crudApp.model.Skill;
+import com.Maxim.crudApp.repository.gson.GsonSkillRepositoryImpl;
+import com.Maxim.crudApp.view.SkillsView;
 
 
 import java.util.*;

@@ -1,4 +1,4 @@
-package com.Maxim.crud_app;
+package com.Maxim.crudApp;
 
 public class Main {
     public static void main(String[] args) {

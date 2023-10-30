@@ -1,9 +1,9 @@
-package com.Maxim.crud_app.view;
+package com.Maxim.crudApp.view;
 
 
-import com.Maxim.crud_app.base.BaseView;
-import com.Maxim.crud_app.model.Developer;
-import com.Maxim.crud_app.model.Skill;
+import com.Maxim.crudApp.base.BaseView;
+import com.Maxim.crudApp.model.Developer;
+import com.Maxim.crudApp.model.Skill;
 
 import java.util.HashMap;
 import java.util.List;

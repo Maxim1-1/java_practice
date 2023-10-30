@@ -1,6 +1,6 @@
-package com.Maxim.crud_app.model;
+package com.Maxim.crudApp.model;
 
-import com.Maxim.crud_app.base.Status;
+import com.Maxim.crudApp.base.Status;
 import java.util.concurrent.ThreadLocalRandom;
 
 

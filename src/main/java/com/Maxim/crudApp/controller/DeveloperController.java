@@ -1,12 +1,12 @@
-package com.Maxim.crud_app.controller;
+package com.Maxim.crudApp.controller;
 
 
-import com.Maxim.crud_app.model.Developer;
-import com.Maxim.crud_app.model.Skill;
-import com.Maxim.crud_app.model.Specialty;
-import com.Maxim.crud_app.model.UpdateParamsDeveloper;
-import com.Maxim.crud_app.repository.gson.GsonDeveloperRepositoryImpl;
-import com.Maxim.crud_app.view.DeveloperView;
+import com.Maxim.crudApp.model.Developer;
+import com.Maxim.crudApp.model.Skill;
+import com.Maxim.crudApp.model.Specialty;
+import com.Maxim.crudApp.model.UpdateParamsDeveloper;
+import com.Maxim.crudApp.repository.gson.GsonDeveloperRepositoryImpl;
+import com.Maxim.crudApp.view.DeveloperView;
 
 import java.util.*;
 import java.util.stream.Collectors;

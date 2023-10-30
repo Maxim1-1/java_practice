@@ -1,4 +1,4 @@
-package com.Maxim.crud_app;
+package com.Maxim.crudApp;
 
 import java.util.Scanner;
 

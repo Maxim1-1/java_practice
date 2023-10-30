@@ -1,6 +1,6 @@
-package com.Maxim.crud_app.repository;
+package com.Maxim.crudApp.repository;
 
-import com.Maxim.crud_app.model.Developer;
+import com.Maxim.crudApp.model.Developer;
 
 
 public interface DeveloperRepository extends GenericRepository<Developer, Integer> {

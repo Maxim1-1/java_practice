@@ -1,6 +1,6 @@
-package com.Maxim.crud_app.model;
+package com.Maxim.crudApp.model;
 
-import com.Maxim.crud_app.repository.gson.GsonDeveloperRepositoryImpl;
+import com.Maxim.crudApp.repository.gson.GsonDeveloperRepositoryImpl;
 import java.util.function.Consumer;
 
 

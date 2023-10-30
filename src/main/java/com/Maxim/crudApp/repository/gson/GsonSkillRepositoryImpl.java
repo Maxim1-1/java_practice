@@ -1,8 +1,8 @@
-package com.Maxim.crud_app.repository.gson;
+package com.Maxim.crudApp.repository.gson;
 
-import com.Maxim.crud_app.base.Status;
-import com.Maxim.crud_app.model.Skill;
-import com.Maxim.crud_app.repository.SkillRepository;
+import com.Maxim.crudApp.base.Status;
+import com.Maxim.crudApp.model.Skill;
+import com.Maxim.crudApp.repository.SkillRepository;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
@@ -13,7 +13,7 @@ import java.util.List;
 
 
 public class GsonSkillRepositoryImpl implements SkillRepository {
-    String skillRepositoryPath = "src/main/java/com/Maxim/crud_app/data" + File.separator + "skill.json";
+    String skillRepositoryPath = "src/main/java/com/Maxim/crudApp/data" + File.separator + "skill.json";
 
     @Override
     public Skill getById(Integer skillId) {
