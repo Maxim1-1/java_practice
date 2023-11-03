@@ -2,8 +2,6 @@ package com.Maxim.multithreading;
 
 public class Foo {
     public synchronized void first() {
-
-
         System.out.print("first");
     }
 
