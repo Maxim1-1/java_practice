@@ -1,0 +1,34 @@
+
+1 задача
+SELECT FirstName,LastName,  City,State
+FROM test.address join test.person on person.PersonId = address.AddressId
+
+2 задача
+SELECT MAX(Salary)
+  FROM test.employee
+ WHERE Salary < ( SELECT MAX(Salary)
+                 FROM test.employee )
+
+3 задача
+SELECT e1.Name AS Employee
+FROM Employee e1
+JOIN Employee e2 ON e1.ManagerId = e2.Id
+WHERE e1.Salary > e2.Salary;
+
+4 задача
+SELECT Email
+FROM Person
+GROUP BY Email
+HAVING COUNT(Email) > 1;
+
+5 задача
+SELECT Name as Customers
+FROM customers
+left join orders on customers.Id = orders.CustomerId
+WHERE orders.Id IS NULL
+
+6 задача
+SELECT class
+FROM test.courses
+GROUP BY class
+HAVING COUNT(class) >= 5;
